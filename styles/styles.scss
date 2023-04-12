@@ -22,6 +22,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-transform: uppercase;
 }
 
 header {
@@ -42,15 +43,11 @@ aside {
 	width: 100px;
 
 	@media screen and (min-width: 600px) {
-		& {
-			width: 150px;
-		}
+		width: 150px;
 	}
 
 	@media screen and (min-width: 900px) {
-		& {
-			width: 200px;
-		}
+		width: 200px;
 	}
 }
 
@@ -67,14 +64,10 @@ aside {
 		margin: 0 0 10px 10px;
 
 		@media screen and (min-width: 600px) {
-			& {
-				width: calc(50% - 10px);
-			}
+			width: calc(50% - 10px);
 		}
 		@media screen and (min-width: 900px) {
-			& {
-				width: calc(33.3333% - 10px);
-			}
+			width: calc(33.3333% - 10px);
 		}
 
 		img {
